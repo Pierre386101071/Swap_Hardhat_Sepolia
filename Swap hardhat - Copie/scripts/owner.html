@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Swap - Owner Panel</title>
+</head>
+<body>
+  <h1>Admin Panel - Add Liquidity & Tokens</h1>
+
+  <button id="connectBtn">Connect Wallet</button>
+  <p id="walletAddress"></p>
+
+  <h2>Add Token in MetaMask</h2>
+  <input type="text" id="tokenAddressInput" placeholder="Adresse du token" />
+  <input type="text" id="tokenNameInput" placeholder="Nom du token" />
+  <button id="addTokenBtn">Add Token</button>
+
+  <h2>Add token in contract</h2>
+  <input id="tokenAddress" placeholder="Adresse du token" />
+  <input id="tokenPrice" type="number" placeholder="Prix du token (uint)" />
+  <input id="tokenName" placeholder="Nom du token" />
+  <button id="addTokenContractBtn">Add Token to contract</button>
+
+  <h2>Add Liquidity</h2>
+  <input type="text" id="liqTokenAddress" placeholder="Token Address" />
+  <input type="number" id="liqAmount" placeholder="Amount to Add" />
+  <button id="addLiquidityBtn">Add Liquidity</button>
+
+  <h2>Get Swap Rate</h2>
+  <input type="text" id="rateFrom" placeholder="Token From" />
+  <input type="text" id="rateTo" placeholder="Token To" />
+  <button id="getRateBtn">Get Rate</button>
+  <p id="rateResult"></p>
+
+  <h2>Get Liquidity</h2>
+  <input type="text" id="getLiqAddress" placeholder="Token address" />
+  <button id="getLiquidityBtn">Get Liquidity</button>
+  <p id="liqResult"></p>
+
+  <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
+
+  <script src="owner.js"></script>
+</body>
+</html>
