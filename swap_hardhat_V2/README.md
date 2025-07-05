@@ -12,7 +12,7 @@ npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.ts
 ```
 
-run index_V2.html with live server to also test front end 
+run index_V2.html with live server to also test front end
 
 I deployed 2 tokens to test this swap :
 
