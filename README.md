@@ -12,5 +12,11 @@ npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.ts
 ```
 
-or run user.html with live server for example 
-you can also run owner.html with live server but you won't be able to use all functions as far as you are not the owner.
+run index_V2.html with live server to also test front end 
+
+I deployed 2 tokens to test this swap :
+
+token 1 : 0x5793148dbF3c90c3780580171046Beb667E19A88
+token 2 : 0x0D7b4315EC06948cac0b57b32cC40cEfFF0fc61E
+
+you can mint some on the page to test swap (swap rate : T1 = 2 * T2)
