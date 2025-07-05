@@ -1,0 +1,16 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Owner",
+  "sourceName": "contracts/Swap.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b50336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550603f80605d6000396000f3fe6080604052600080fdfea264697066735822122091dcdc630763341a6ba02be23ced3329ba7b20244f63248bda606ea43d745ea264736f6c634300081c0033",
+  "deployedBytecode": "0x6080604052600080fdfea264697066735822122091dcdc630763341a6ba02be23ced3329ba7b20244f63248bda606ea43d745ea264736f6c634300081c0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
